@@ -1,12 +1,24 @@
-const aspectos = `Silvana`
-const seco = `F`
-const idade = 48
+const nome = "Silvana"
+const sexo = "F"
+const idade = 55
 const contribuicao = 30
 
+var F, M
 
+const aposentadoria = (idade + contribuicao)
 
-if  ( contribuicao >= 30 ) {
-    console.log (`Seu tempo de contribuição é ${contribuicao}. Você já pode se aposentar.`)
-} else if ( contribuicao < 30 ) {
-    console.log (`Seu tempo de contribuição é ${contribuicao}. Continue trabalhando.`)
+if (sexo === "M") {
+  // Se for homem cai aqui
+  if (contribuicao >= 35 && idade + contribuicao >= 95) {
+    console.log(`${nome}, você pode se aposentar!`)
+  } else {
+    console.log(`${nome}, você não pode se aposentar!`)
+  }
+} else {
+  // Se for mulher cai aqui
+  if (contribuicao >= 30 && idade + contribuicao >= 85) {
+    console.log(`${nome}, você pode se aposentar!`)
+  } else {
+    console.log(`${nome}, você não pode se aposentar!`)
+  }
 }
