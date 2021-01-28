@@ -1,1 +1,1 @@
-Esta repositorio e de aulas de javascript
+Alguns Exercicios das aulas de html do bootcamp rocketseat.
