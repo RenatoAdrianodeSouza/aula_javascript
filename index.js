@@ -1,4 +1,3 @@
-
 const classA = [
     {
         name: `Mayk`,
@@ -56,7 +55,7 @@ function sendMessagem(average, turma) {
 
 function markAsFlunked(student) {
     student.flunked = false
-    
+
     if (student.grade < 5) {
         student.flunked = true
     }
